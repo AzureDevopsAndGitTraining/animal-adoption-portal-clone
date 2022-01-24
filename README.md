@@ -1,5 +1,5 @@
 # Azure and DevOps training from AWARE Group. TEAM-3
-Branching policy: make sure to make your own branch (pushing code straight to master branch is STRICTLY prohibited). The naming convention itself will look like; `[YourName]-based-on-[SourceBranch]`
+Branching policy: make sure to make your own branch (pushing code straight to master branch is STRICTLY prohibited). The naming convention itself will look like; `dev-[YourName]`
 
 # Introduction
 This repository contains an example web portal for a hypothetical animal adoption agency for the purposes of the DevOps Azure Sprint Series. This code has been intentionally developed as a simple demonstration and should not be used as a base for any production development. For more information on how to develop microservices and .NET Core services please refer to the following links.
