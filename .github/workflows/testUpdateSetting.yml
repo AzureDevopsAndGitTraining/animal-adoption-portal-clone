@@ -1,0 +1,22 @@
+name: Update Settings on Website
+
+on:
+push:
+branches:
+- master
+workflow_dispatch:
+
+
+jobs:
+build:
+runs-on: windows-latest
+
+
+steps:
+
+- uses: azure/login@v1
+with:
+creds: ${​​​{​​​ secrets.AZURE_CREDENTIALS }​​​}​​​
+
+- run: |
+az webapp list --query "[?state=='Running']"
